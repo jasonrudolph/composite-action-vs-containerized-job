@@ -3,6 +3,7 @@ on: [push]
 jobs:
   demo:
     runs-on: ubuntu-latest
+    container: ubuntu:latest
 
     steps:
       - name: Checkout
