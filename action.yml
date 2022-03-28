@@ -1,0 +1,6 @@
+name: "Example Composite Action"
+runs:
+  using: "composite"
+  steps:
+    - run: curl http://example.com
+      shell: bash
